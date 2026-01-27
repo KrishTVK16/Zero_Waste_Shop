@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-bs-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ZeroWaste Store - sustainable shopping, refill culture, and eco-friendly delivery." />
+  <title>ZeroWaste Store - Home</title>
+  <link rel="icon" href="assets/images/favicon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="zw-navbar sticky-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <span class="zw-icon-circle"><i class="bi bi-recycle"></i></span>
+          <span class="zw-brand">ZeroWaste Store</span>
+        </a>
+
+        <div class="d-flex align-items-center gap-2 order-lg-2">
+          <button type="button" class="btn btn-sm btn-outline-secondary" data-dir-toggle aria-label="Toggle direction" data-dir-btn>LTR</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary" data-theme-toggle aria-label="Toggle theme">
+            <i class="bi bi-sun" data-theme-icon></i>
+          </button>
+
+          <a class="btn btn-sm btn-outline-success zw-btn-outline d-none d-lg-inline-flex" href="login.html">Login</a>
+          <a class="btn btn-sm btn-success zw-btn d-none d-lg-inline-flex" href="register.html">Signup</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav" aria-controls="offcanvasNav" aria-label="Open menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navbarNav">
+          <ul class="navbar-nav mx-lg-auto gap-lg-1">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="home-2.html">Refill Locator</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavLabel">ZeroWaste Store</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="d-grid gap-2 mb-3">
+          <a class="btn btn-outline-success zw-btn-outline" href="login.html">Login</a>
+          <a class="btn btn-success zw-btn" href="register.html">Signup</a>
+          <a class="btn btn-outline-secondary" href="dashboard.html"><i class="bi bi-speedometer2 me-1"></i> Admin Dashboard</a>
+        </div>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="home-2.html">Refill Locator</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="service-details.html">Service Details</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="coming-soon.html">Coming Soon</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="zw-hero py-5">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="zw-pill"><i class="bi bi-droplet-half me-1"></i> Refill Culture</span>
+              <span class="zw-pill"><i class="bi bi-truck me-1"></i> Low-Packaging Delivery</span>
+              <span class="zw-pill"><i class="bi bi-geo-alt me-1"></i> Local Partners</span>
+            </div>
+            <h1 class="display-5 fw-bold mb-3">Shop Smart. Refill More. Waste Less.</h1>
+            <p class="lead text-secondary mb-4">Discover refill stations for liquids, grains, and cleaning products—and order eco essentials delivered in minimal packaging.</p>
+            <div class="d-flex flex-column flex-sm-row gap-2">
+              <a class="btn btn-success zw-btn btn-lg" href="home-2.html"><i class="bi bi-map me-2"></i>Find Refill Stations</a>
+              <a class="btn btn-outline-success zw-btn-outline btn-lg" href="services.html"><i class="bi bi-bag-heart me-2"></i>Browse Eco Services</a>
+            </div>
+            <p class="zw-form-hint mt-3 mb-0">Tip: Use the top-right toggle to switch Light/Dark and LTR/RTL.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="zw-map-placeholder d-flex align-items-center justify-content-center p-4">
+              <div class="text-center">
+                <div class="zw-icon-circle mx-auto mb-3"><i class="bi bi-globe2"></i></div>
+                <h5 class="mb-1">Refill Locator Preview</h5>
+                <p class="text-secondary mb-3">A simple map-style preview for beginners (replace with real map later).</p>
+                <div class="d-flex flex-wrap justify-content-center gap-2">
+                  <span class="badge rounded-pill zw-badge-secondary">Liquids</span>
+                  <span class="badge rounded-pill zw-badge-secondary">Grains</span>
+                  <span class="badge rounded-pill zw-badge-secondary">Cleaning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="zw-card p-4 h-100">
+              <h2 class="h4 zw-section-title">About the Zero-Waste Concept</h2>
+              <p class="text-secondary mb-3">Zero-waste means reducing what you send to landfill by choosing reusables, refilling containers, and buying thoughtfully.</p>
+              <div class="d-grid gap-3">
+                <div class="d-flex gap-3">
+                  <span class="zw-icon-circle"><i class="bi bi-arrow-repeat"></i></span>
+                  <div>
+                    <h3 class="h6 mb-1">Refill Instead of Rebuy</h3>
+                    <p class="text-secondary mb-0">Bring your own bottle/jar and refill what you need—no extra plastic.</p>
+                  </div>
+                </div>
+                <div class="d-flex gap-3">
+                  <span class="zw-icon-circle"><i class="bi bi-basket"></i></span>
+                  <div>
+                    <h3 class="h6 mb-1">Buy in Bulk, Save More</h3>
+                    <p class="text-secondary mb-0">Bulk grains and pantry staples reduce packaging and cost.</p>
+                  </div>
+                </div>
+                <div class="d-flex gap-3">
+                  <span class="zw-icon-circle"><i class="bi bi-truck"></i></span>
+                  <div>
+                    <h3 class="h6 mb-1">Delivery with Minimal Waste</h3>
+                    <p class="text-secondary mb-0">Paper wraps, reusable crates, and pickup loops wherever possible.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-4">
+                <a class="btn btn-outline-success zw-btn-outline" href="about.html">Read Our Mission</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="zw-card p-4 h-100">
+              <div class="d-flex align-items-center justify-content-between gap-3 flex-wrap">
+                <h2 class="h4 zw-section-title mb-0">Refill Station Locator (Preview)</h2>
+                <a class="btn btn-sm btn-success zw-btn" href="home-2.html">Open Locator</a>
+              </div>
+              <p class="text-secondary mt-3 mb-3">Search and filter refill points by category. This is a demo UI (no backend needed).</p>
+
+              <div class="row g-2">
+                <div class="col-md-7">
+                  <input class="form-control" placeholder="Search by area or store name" data-search-input />
+                </div>
+                <div class="col-md-5">
+                  <select class="form-select" data-filter-select>
+                    <option value="all">All categories</option>
+                    <option value="liquids">Liquids</option>
+                    <option value="grains">Grains</option>
+                    <option value="cleaning">Cleaning</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row g-3 mt-1">
+                <div class="col-md-6" data-filter-card data-tag="liquids" data-haystack="Green Bottle Refill Downtown liquids soap shampoo">
+                  <div class="zw-card p-3 h-100">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h3 class="h6 mb-1">Green Bottle Refill</h3>
+                        <p class="text-secondary mb-2">Downtown • Liquids</p>
+                      </div>
+                      <span class="badge rounded-pill zw-badge-secondary">Open</span>
+                    </div>
+                    <div class="d-flex flex-wrap gap-2">
+                      <span class="badge text-bg-light border">Shampoo</span>
+                      <span class="badge text-bg-light border">Dish Soap</span>
+                      <span class="badge text-bg-light border">Hand Wash</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6" data-filter-card data-tag="grains" data-haystack="Bulk Pantry Hub Riverside grains rice lentils oats">
+                  <div class="zw-card p-3 h-100">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h3 class="h6 mb-1">Bulk Pantry Hub</h3>
+                        <p class="text-secondary mb-2">Riverside • Grains</p>
+                      </div>
+                      <span class="badge rounded-pill zw-badge-secondary">Partner</span>
+                    </div>
+                    <div class="d-flex flex-wrap gap-2">
+                      <span class="badge text-bg-light border">Rice</span>
+                      <span class="badge text-bg-light border">Oats</span>
+                      <span class="badge text-bg-light border">Lentils</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6" data-filter-card data-tag="cleaning" data-haystack="Earth Clean Corner Midtown cleaning floor cleaner laundry">
+                  <div class="zw-card p-3 h-100">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h3 class="h6 mb-1">Earth Clean Corner</h3>
+                        <p class="text-secondary mb-2">Midtown • Cleaning</p>
+                      </div>
+                      <span class="badge rounded-pill zw-badge-secondary">Refill</span>
+                    </div>
+                    <div class="d-flex flex-wrap gap-2">
+                      <span class="badge text-bg-light border">Laundry</span>
+                      <span class="badge text-bg-light border">Floor</span>
+                      <span class="badge text-bg-light border">Multi-surface</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6" data-filter-card data-tag="liquids" data-haystack="Refill & Reuse Market Uptown liquids oils vinegar">
+                  <div class="zw-card p-3 h-100">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h3 class="h6 mb-1">Refill & Reuse Market</h3>
+                        <p class="text-secondary mb-2">Uptown • Liquids</p>
+                      </div>
+                      <span class="badge rounded-pill zw-badge-secondary">New</span>
+                    </div>
+                    <div class="d-flex flex-wrap gap-2">
+                      <span class="badge text-bg-light border">Oils</span>
+                      <span class="badge text-bg-light border">Vinegar</span>
+                      <span class="badge text-bg-light border">Sanitizer</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12" data-empty-state style="display:none;">
+                  <div class="zw-empty">No refill stations match your search. Try another keyword or category.</div>
+                </div>
+              </div>
+
+              <div class="mt-3">
+                <a class="btn btn-outline-secondary" href="service-details.html">Refill FAQs & Pricing</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="d-flex align-items-end justify-content-between flex-wrap gap-3 mb-3">
+          <div>
+            <h2 class="h3 zw-section-title mb-1">Popular Eco Products</h2>
+            <p class="text-secondary mb-0">Delivery in minimal packaging (paper wrap / reusable crate options).</p>
+          </div>
+          <a class="btn btn-success zw-btn" href="services.html"><i class="bi bi-cart3 me-2"></i>Order Delivery</a>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3">
+            <div class="zw-card p-3 h-100">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="zw-icon-circle"><i class="bi bi-brightness-high"></i></span>
+                <h3 class="h6 mb-0">Bamboo Toothbrush</h3>
+              </div>
+              <p class="text-secondary mb-3">Compostable handle. Soft bristles.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-semibold">From $3.99</span>
+                <a href="pricing.html" class="btn btn-sm btn-outline-success zw-btn-outline">View Plans</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="zw-card p-3 h-100">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="zw-icon-circle"><i class="bi bi-droplet"></i></span>
+                <h3 class="h6 mb-0">Refill Soap Pods</h3>
+              </div>
+              <p class="text-secondary mb-3">Dissolve pods. Reuse your bottle.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-semibold">From $6.50</span>
+                <a href="services.html" class="btn btn-sm btn-outline-success zw-btn-outline">Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="zw-card p-3 h-100">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="zw-icon-circle"><i class="bi bi-egg-fried"></i></span>
+                <h3 class="h6 mb-0">Bulk Oats (1kg)</h3>
+              </div>
+              <p class="text-secondary mb-3">Pantry staple with low packaging.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-semibold">From $4.20</span>
+                <a href="service-details.html" class="btn btn-sm btn-outline-success zw-btn-outline">How Refill Works</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="zw-card p-3 h-100">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="zw-icon-circle"><i class="bi bi-bag"></i></span>
+                <h3 class="h6 mb-0">Reusable Produce Bag</h3>
+              </div>
+              <p class="text-secondary mb-3">Lightweight. Washable. Durable.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-semibold">From $2.25</span>
+                <a href="services.html" class="btn btn-sm btn-outline-success zw-btn-outline">Add to Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7">
+            <div class="zw-card p-4 h-100">
+              <h2 class="h3 zw-section-title">How It Works (Refill & Delivery)</h2>
+              <p class="text-secondary">Beginner-friendly steps you can follow today.</p>
+              <div class="d-grid gap-3">
+                <div class="d-flex gap-3">
+                  <span class="zw-icon-circle">1</span>
+                  <div>
+                    <h3 class="h6 mb-1">Pick a Category</h3>
+                    <p class="text-secondary mb-0">Liquids, grains, or cleaning refills—or eco delivery items.</p>
+                  </div>
+                </div>
+                <div class="d-flex gap-3">
+                  <span class="zw-icon-circle">2</span>
+                  <div>
+                    <h3 class="h6 mb-1">Choose Station or Delivery</h3>
+                    <p class="text-secondary mb-0">Find a local refill point or order doorstep delivery.</p>
+                  </div>
+                </div>
+                <div class="d-flex gap-3">
+                  <span class="zw-icon-circle">3</span>
+                  <div>
+                    <h3 class="h6 mb-1">Refill, Reuse, Repeat</h3>
+                    <p class="text-secondary mb-0">Reuse containers and track your waste reduction.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-4 d-flex flex-wrap gap-2">
+                <a class="btn btn-success zw-btn" href="register.html">Start Free Account</a>
+                <a class="btn btn-outline-secondary" href="pricing.html">See Memberships</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="zw-card p-4 h-100">
+              <h2 class="h4 zw-section-title">Testimonials</h2>
+              <div class="d-grid gap-3 mt-3">
+                <div class="zw-card p-3">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <strong>Aanya</strong>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </span>
+                  </div>
+                  <p class="text-secondary mb-0 mt-2">“The refill locator helped me find a detergent refill near my office. Super easy!”</p>
+                </div>
+                <div class="zw-card p-3">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <strong>Rahul</strong>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                    </span>
+                  </div>
+                  <p class="text-secondary mb-0 mt-2">“Love the minimal packaging delivery. The reusable crate option is brilliant.”</p>
+                </div>
+                <div class="zw-card p-3">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <strong>Sara</strong>
+                    <span class="text-warning">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </span>
+                  </div>
+                  <p class="text-secondary mb-0 mt-2">“I saved money by refilling pantry staples. Great for beginners!”</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="zw-card p-4 p-lg-5">
+          <div class="row g-3 align-items-center">
+            <div class="col-lg-8">
+              <h2 class="h3 zw-section-title mb-2">Ready to reduce plastic today?</h2>
+              <p class="text-secondary mb-0">Create an account to save stations, track orders, and unlock refill memberships.</p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a class="btn btn-success zw-btn btn-lg" href="register.html"><i class="bi bi-person-plus me-2"></i>Join Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="zw-footer pt-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <span class="zw-icon-circle"><i class="bi bi-recycle"></i></span>
+            <strong>ZeroWaste Store</strong>
+          </div>
+          <p class="text-secondary">Sustainable shopping made simple: refill culture + low-waste delivery.</p>
+          <div class="zw-social d-flex gap-2">
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <h3 class="h6">Company</h3>
+          <ul class="list-unstyled d-grid gap-2">
+            <li><a class="text-decoration-none" href="about.html">About</a></li>
+            <li><a class="text-decoration-none" href="services.html">Services</a></li>
+            <li><a class="text-decoration-none" href="blog.html">Blog</a></li>
+            <li><a class="text-decoration-none" href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <h3 class="h6">Support</h3>
+          <ul class="list-unstyled d-grid gap-2">
+            <li><a class="text-decoration-none" href="contact.html">Contact</a></li>
+            <li><a class="text-decoration-none" href="service-details.html">FAQ</a></li>
+            <li><a class="text-decoration-none" href="coming-soon.html">Privacy</a></li>
+            <li><a class="text-decoration-none" href="coming-soon.html">Terms</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <h3 class="h6">Newsletter</h3>
+          <p class="text-secondary">Get sustainable tips & eco offers.</p>
+          <form class="d-flex gap-2" action="#">
+            <label class="visually-hidden" for="newsEmail">Email</label>
+            <input id="newsEmail" class="form-control" type="email" placeholder="you@example.com" />
+            <button class="btn btn-success zw-btn" type="button">Join</button>
+          </form>
+          <p class="zw-form-hint mt-2 mb-0">No spam. Unsubscribe anytime.</p>
+        </div>
+      </div>
+
+      <hr class="my-4" />
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 pb-4">
+        <small class="text-secondary">© 2026 ZeroWaste Store. All rights reserved.</small>
+        <div class="d-flex gap-3">
+          <a class="text-decoration-none" href="dashboard.html">Admin</a>
+          <a class="text-decoration-none" href="404.html">404</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="btn btn-success zw-btn zw-backtotop" type="button" aria-label="Back to top" data-back-to-top>
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
