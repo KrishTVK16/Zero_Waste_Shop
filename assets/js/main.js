@@ -112,10 +112,25 @@
     apply();
   }
 
+  function initActiveMenu(){
+    const path = window.location.pathname.split('/').pop() || 'index.html';
+    const links = document.querySelectorAll('.nav-link');
+    
+    links.forEach(link => {
+      const href = link.getAttribute('href');
+      if(href === path){
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function(){
     initThemeAndDir();
     initNavbarScroll();
     initBackToTop();
     initCardFilters();
+    initActiveMenu();
   });
 })();
