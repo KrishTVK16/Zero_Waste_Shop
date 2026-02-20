@@ -22,9 +22,10 @@
         </a>
 
         <div class="d-flex align-items-center gap-2 order-lg-2">
-          <button type="button" class="btn btn-sm btn-outline-secondary" data-dir-toggle aria-label="Toggle direction"
-            data-dir-btn>LTR</button>
-          <button type="button" class="btn btn-sm btn-outline-secondary" data-theme-toggle aria-label="Toggle theme">
+          <button type="button" class="btn btn-sm btn-outline-secondary d-none d-lg-inline-flex" data-dir-toggle
+            aria-label="Toggle direction" data-dir-btn>LTR</button>
+          <button type="button" class="btn btn-sm btn-outline-secondary d-none d-lg-inline-flex" data-theme-toggle
+            aria-label="Toggle theme">
             <i class="bi bi-sun" data-theme-icon></i>
           </button>
 
@@ -51,12 +52,15 @@
       </div>
     </nav>
 
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavLabel">ZeroWaste Store</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
+  </header>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav" aria-labelledby="offcanvasNavLabel">
+    <div class="offcanvas-header">
+
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column">
+      <div class="flex-grow-1">
         <div class="d-grid gap-2 mb-3">
           <a class="btn btn-outline-success zw-btn-outline" href="login.html">Login</a>
           <a class="btn btn-success zw-btn" href="register.html">Signup</a>
@@ -75,8 +79,18 @@
           <li class="nav-item"><a class="nav-link" href="coming-soon.html">Coming Soon</a></li>
         </ul>
       </div>
+
+      <div class="mt-auto pt-3 border-top d-lg-none">
+        <div class="d-flex gap-2">
+          <button type="button" class="btn btn-outline-secondary w-50" data-dir-toggle aria-label="Toggle direction"
+            data-dir-btn>LTR</button>
+          <button type="button" class="btn btn-outline-secondary w-50" data-theme-toggle aria-label="Toggle theme">
+            <i class="bi bi-sun" data-theme-icon></i>
+          </button>
+        </div>
+      </div>
     </div>
-  </header>
+  </div>
 
   <main>
     <section class="zw-hero py-5">

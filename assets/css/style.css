@@ -166,6 +166,12 @@ main {
   letter-spacing: .2px;
 }
 
+@media (max-width:350px) {
+  .zw-brand {
+    font-size: .95rem;
+  }
+}
+
 .zw-pill {
   font-size: .85rem;
   padding: .35rem .65rem;
@@ -338,6 +344,19 @@ main {
   color: var(--zw-primary);
   border: 1px solid rgba(31, 122, 58, .18);
   box-shadow: 0 10px 18px rgba(31, 122, 58, .12);
+}
+
+@media (max-width:350px) {
+  .zw-icon-circle {
+    width: 32px;
+    height: 32px;
+    font-size: .85rem;
+  }
+
+  .navbar-brand {
+    gap: .35rem !important;
+    margin-right: .5rem;
+  }
 }
 
 .zw-map-placeholder {
