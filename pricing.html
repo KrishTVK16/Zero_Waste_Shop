@@ -17,20 +17,19 @@
   <header class="zw-navbar sticky-top">
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <a class="zw-brand-link" href="index.html">
           <span class="zw-icon-circle"><i class="bi bi-recycle"></i></span>
           <span class="zw-brand">ZeroWaste Store</span>
         </a>
 
         <div class="d-flex align-items-center gap-2 order-lg-2">
-          <button type="button" class="btn btn-sm btn-outline-secondary d-none d-lg-inline-flex" data-dir-toggle
-            aria-label="Toggle direction" data-dir-btn>LTR</button>
           <button type="button" class="btn btn-sm btn-outline-secondary d-none d-lg-inline-flex" data-theme-toggle
             aria-label="Toggle theme">
             <i class="bi bi-sun" data-theme-icon></i>
           </button>
 
-          <a class="btn btn-sm btn-outline-success zw-btn-outline d-none d-lg-inline-flex" href="login.html">Login</a>
+          <a class="btn btn-sm btn-outline-success zw-btn-outline d-none d-lg-inline-flex"
+            href="dashboard.html">Dashboard</a>
           <a class="btn btn-sm btn-success zw-btn d-none d-lg-inline-flex" href="register.html">Signup</a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav"
@@ -77,7 +76,6 @@
           <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="coming-soon.html">Coming Soon</a></li>
         </ul>
       </div>
 
@@ -115,7 +113,7 @@
         <h2 class="h3 zw-section-title mb-3">Refill Membership Plans</h2>
         <div class="row g-3">
           <div class="col-md-6 col-lg-4">
-            <div class="zw-card p-4 h-100">
+            <div class="zw-card p-4 h-100 d-flex flex-column">
               <h3 class="h5">Basic</h3>
               <p class="text-secondary">For occasional refills and delivery.</p>
               <div class="d-flex align-items-baseline gap-2 mb-3">
@@ -130,14 +128,14 @@
                 <div class="d-flex gap-2"><i class="bi bi-check2-circle text-success"></i><span>Save favorites</span>
                 </div>
               </div>
-              <div class="mt-4">
+              <div class="mt-auto pt-4">
                 <a class="btn btn-success zw-btn w-100" href="register.html">Choose Basic</a>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
-            <div class="zw-card p-4 h-100 border border-success">
+            <div class="zw-card p-4 h-100 border border-success d-flex flex-column">
               <div class="d-flex align-items-center justify-content-between">
                 <h3 class="h5 mb-0">Plus</h3>
                 <span class="badge rounded-pill text-bg-success">Popular</span>
@@ -155,14 +153,14 @@
                 <div class="d-flex gap-2"><i class="bi bi-check2-circle text-success"></i><span>Subscription
                     refills</span></div>
               </div>
-              <div class="mt-4">
+              <div class="mt-auto pt-4">
                 <a class="btn btn-success zw-btn w-100" href="register.html">Choose Plus</a>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
-            <div class="zw-card p-4 h-100">
+            <div class="zw-card p-4 h-100 d-flex flex-column">
               <h3 class="h5">Family</h3>
               <p class="text-secondary">For frequent refills and larger households.</p>
               <div class="d-flex align-items-baseline gap-2 mb-3">
@@ -177,7 +175,7 @@
                 <div class="d-flex gap-2"><i class="bi bi-check2-circle text-success"></i><span>Bulk ordering
                     discounts</span></div>
               </div>
-              <div class="mt-4">
+              <div class="mt-auto pt-4">
                 <a class="btn btn-success zw-btn w-100" href="register.html">Choose Family</a>
               </div>
             </div>
@@ -251,10 +249,10 @@
     <div class="container">
       <div class="row g-4">
         <div class="col-md-6 col-lg-3">
-          <div class="d-flex align-items-center gap-2 mb-2">
+          <a class="zw-brand-link mb-2" href="index.html">
             <span class="zw-icon-circle"><i class="bi bi-recycle"></i></span>
-            <strong>ZeroWaste Store</strong>
-          </div>
+            <span class="zw-brand">ZeroWaste Store</span>
+          </a>
           <p class="text-secondary">Sustainable shopping made simple: refill culture + low-waste delivery.</p>
           <div class="zw-social d-flex gap-2">
             <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
